@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.button,
+.description,
+.users {
+  width: 200px;
+  background-color: beige;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  padding: 7px;
+  font-size: larger;
+  margin: 7px;
+  border: black 2px solid;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.description {
+  height: 60px;
+  width: 400px;
+  display: block;
+}
+.users {
+  width: 400px;
+  display: block;
+}
+.Forum-Div {
+  text-align: center;
+  width: 52%;
+  border: 2px solid grey;
+  box-shadow: 2px 2px 2px 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 9px;
+  padding: 10px;
+}
+.Forum-Topic {
+  background: rgb(154, 154, 185);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 9px;
+}
+.Forum-Heading {
+  text-align: center;
+}
+.link {
+  border: black 2px solid;
+  margin: auto;
+  color: black;
+  padding: 12px;
+  border-radius: 10px;
+}
+.link-div {
+  padding: 20px;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn1 {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+input,
+textarea,
+select {
+  width: 30%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+label {
+  margin-right: 20px;
+}
+
+h1 {
+  color: lavenderblush;
+  font-weight: bold;
+}
+.showp {
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  background: lightgray;
+  box-shadow: 10px 10px 10px black;
+}
+form {
+  border: 2px solid black;
+  background: lemonchiffon;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 10px 10px 10px black;
+}
+.Div {
+  text-align: center;
+  width: 80%;
+  border: black 2px solid;
+  padding: 10px;
+  margin: 9px auto 10px auto;
+  border-radius: 10px;
+}
+.Description {
+  width: 90%;
+  overflow-wrap: break-word;
+}
+.Button2 {
+  width: 130px;
+  height: 30px;
+}
